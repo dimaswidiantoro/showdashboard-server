@@ -1,0 +1,10 @@
+### Django showdashboard ###
+*.log
+*.pot
+*.pyc
+_pycache_/
+settings.py
+local_settings.py
+db.sqlite3
+/media
+/static
