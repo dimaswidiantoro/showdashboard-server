@@ -19,6 +19,7 @@ import frontpage.views
 import homepage.views
 import accounts.views
 import searchconsole.views
+import android.views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -31,5 +32,5 @@ urlpatterns = [
     url(r'^internalteam', homepage.views.internalteam, name="internalteam"),
     url(r'^accounts/', include('accounts.urls')),
     url(r'^searchconsole/', include('searchconsole.urls')),
-
+    url(r'^android/', include('android.urls')),
 ]
