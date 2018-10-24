@@ -20,6 +20,7 @@ import homepage.views
 import accounts.views
 import searchconsole.views
 import android.views
+import analytics.views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -33,4 +34,5 @@ urlpatterns = [
     url(r'^accounts/', include('accounts.urls')),
     url(r'^searchconsole/', include('searchconsole.urls')),
     url(r'^android/', include('android.urls')),
+    url(r'^analytics/', include('analytics.urls')),
 ]
