@@ -25,7 +25,7 @@ SECRET_KEY = '^tlt!lo6xj$quvu61+fv*na)6d+=^h_)e4ztl44q2@%$g=17gq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['80.240.25.120','showdashboard.com']
 
 
 # Application definition
