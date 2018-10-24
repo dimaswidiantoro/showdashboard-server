@@ -1,0 +1,55 @@
+{% extends 'base2.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<section class="section-full gray-bg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="section-title text-center">
+                    <p class="text-uppercase">Brainly x Httpool</p>
+                    <h3>The data here is prepared special for Brainly and <b>Httpool</b> Project</h3>
+                    <br>
+                    <br>
+<iframe width="600" height="800" src="https://datastudio.google.com/embed/reporting/1wgRCqs6LrZczrGSgbOUkChCpbxg07aja/page/d6Ra" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </br>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <figure class="signle-service">
+                    <img src="{% static 'homepage/img/s1.jpg' %}" class="img-fluid" alt="">
+                    <figcaption class="text-center">
+                        <h5 class="text-uppercase">Brainly</h5>
+                        <p>One of the largest project in showdashboard is from Brainly</p>
+                        <a href="#" class="primary-btn d-inline-flex align-items-center">Explore<span class="lnr lnr-arrow-right"></span></a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <figure class="signle-service">
+                    <img src="{% static 'homepage/img/s2.jpg' %}" class="img-fluid" alt="">
+                    <figcaption class="text-center">
+                        <h5 class="text-uppercase">Journalist</h5>
+                        <p>Are you a journalist, that need a data for startup media, please take a look here. </p>
+                        <a href="#" class="primary-btn d-inline-flex align-items-center">Explore<span class="lnr lnr-arrow-right"></span></a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <figure class="signle-service">
+                    <img src="{% static 'homepage/img/s3.jpg' %}" class="img-fluid" alt="">
+                    <figcaption class="text-center">
+                        <h5 class="text-uppercase">Other project</h5>
+                        <p>Other project can be found here</p>
+                        <a href="#" class="primary-btn d-inline-flex align-items-center">Explore<span class="lnr lnr-arrow-right"></span></a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% endblock %}
