@@ -20,3 +20,6 @@ def scfrance(request):
 def scturkey(request):
     return render(request,'searchconsole/scturkey.html')
 # Create your views here.
+@login_required
+def scindia(request):
+    return render(request,'searchconsole/scindia.html')
