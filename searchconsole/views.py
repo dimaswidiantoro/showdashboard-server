@@ -16,4 +16,7 @@ def scphilipines(request):
 def scfrance(request):
     return render(request,'searchconsole/scfrance.html')
 
+@login_required
+def scturkey(request):
+    return render(request,'searchconsole/scturkey.html')
 # Create your views here.
