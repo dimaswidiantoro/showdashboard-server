@@ -1,0 +1,57 @@
+{% extends 'base2.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<section class="section-full gray-bg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="section-title text-center">
+                    <p class="text-uppercase">Data of Google conversion campaign</p>
+                    <h3>The conversion rate based on <b>Ads</b> Project</h3>
+                    <br />
+                        <iframe width="1000" height="750" src="https://datastudio.google.com/embed/reporting/1m58QaUNE2ouvFFbOFYe8wvbv_ffHxdXX/page/Vtmb" frameborder="0" style="border:0" allowfullscreen>
+                        </iframe>
+                    <br />
+
+                
+                </div>
+            </div>
+        </div>
+        <!--<div class="row">
+            <div class="col-md-4">
+                <figure class="signle-service">
+                    <img src="{% static 'homepage/img/id.png' %}" class="img-fluid" alt="">
+                    <figcaption class="text-center">
+                        <h5 class="text-uppercase">Indonesia</h5>
+                        <p>Audit the keyword for Indonesia</p>
+                        <a href="{% url 'searchconsole:scindonesia' %}" class="primary-btn d-inline-flex align-items-center">Explore<span class="lnr lnr-arrow-right"></span></a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <figure class="signle-service">
+                    <img src="{% static 'homepage/img/ph.png' %}" class="img-fluid" alt="">
+                    <figcaption class="text-center">
+                        <h5 class="text-uppercase">Philipines</h5>
+                        <p>Audit the keyword for Philipines </p>
+                        <a href="{% url 'searchconsole:scphilipines' %}" class="primary-btn d-inline-flex align-items-center">Explore<span class="lnr lnr-arrow-right"></span></a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <figure class="signle-service">
+                    <img src="{% static 'homepage/img/fr.png' %}" class="img-fluid" alt="">
+                    <figcaption class="text-center">
+                        <h5 class="text-uppercase">France</h5>
+                        <p>Audit the keyword for France</p>
+                        <a href="{% url 'searchconsole:scfrance' %}" class="primary-btn d-inline-flex align-items-center">Explore<span class="lnr lnr-arrow-right"></span></a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>-->
+    </div>
+</section>
+
+
+{% endblock %}

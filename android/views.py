@@ -6,3 +6,7 @@ from django.utils import timezone
 @login_required
 def android(request):
     return render(request,'android/android.html')
+
+@login_required
+def USandroid(request):
+    return render(request,'android/USandroid.html')
