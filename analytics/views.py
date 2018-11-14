@@ -6,3 +6,7 @@ from django.utils import timezone
 @login_required
 def analytics(request):
     return render(request,'analytics/analytics.html')
+
+@login_required
+def httpoolData(request):
+    return render(request,'analytics/httpoolData.html')
