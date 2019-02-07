@@ -13,12 +13,17 @@ def scphilipines(request):
     return render(request,'searchconsole/scphilipines.html')
 
 @login_required
+def scusa(request):
+    return render(request,'searchconsole/scusa.html')
+
+@login_required
 def scfrance(request):
     return render(request,'searchconsole/scfrance.html')
 
 @login_required
 def scturkey(request):
     return render(request,'searchconsole/scturkey.html')
+    
 # Create your views here.
 @login_required
 def scindia(request):
