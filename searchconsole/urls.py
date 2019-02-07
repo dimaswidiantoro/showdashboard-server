@@ -9,4 +9,5 @@ urlpatterns = [
     url(r'^scfrance/', views.scfrance, name='scfrance'),
     url(r'^scturkey/', views.scturkey, name='scturkey'),
     url(r'^scindia/', views.scindia, name='scindia'),
+    url(r'^scusa/', views.scusa, name='scusa'),
 ]
